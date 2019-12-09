@@ -6,7 +6,7 @@
 #include <sys/wait.h>
 int main()
 {
-char pid{[}255{]};
+char pid[255];
 fork();
 fork();
 fork();
