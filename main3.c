@@ -12,5 +12,5 @@ fork();
 fork();
 sprintf(pid, "PID : %d\n",getpid());
 write(STDOUT_FILENO, pid, strlen(pid));
-exit(0);
+return(0);
 }
